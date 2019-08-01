@@ -53,13 +53,29 @@ class BlogLayout extends React.Component {
     }
     return (
       <div>
-       <Header headerImage={headerImage} />
+      {location.pathname === rootPath ? 
+       (<div><Header headerImage={headerImage} />
         <main id="main" class="main" tabindex="-1">
+          <div class="content-wrap">
+          <div>
         {mainContent}
+        </div>
+        <div>
         {blogHeading}
         {children}
+        </div>
+        </div>
         </main>
-        <Footer />
+        <Footer /></div>) : (<div><Header headerImage={headerImage} />
+        <main id="main" class="main" tabindex="-1">
+         
+        {mainContent}
+        
+        {blogHeading}
+        {children}
+        
+        </main>
+        <Footer /></div>)}
       </div>
     )
   }

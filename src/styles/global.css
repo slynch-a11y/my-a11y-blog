@@ -58,10 +58,16 @@ a:hover {
 }
 
 .main {
+
   width: 100%;
   background-color: #FBFDF4;
   min-height: 50px;
   padding: 50px;
+}
+.content-wrap {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 10px;
 }
 
 /* Header and Footer

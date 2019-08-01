@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedinIn, FaRegEnvelope } from 'react-icons/fa'
 
 const Footer = () => (
   <footer>
-    <div class="content-wrap">
+   
       <div class="tagline">Connect with me!</div>
         <nav class="contact-info" aria-label="social">
           <ul>
@@ -29,7 +29,7 @@ const Footer = () => (
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
     </div>
-  </div>
+ 
   </footer>
 )
 
