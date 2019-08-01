@@ -67,7 +67,7 @@ a:hover {
 .content-wrap {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 50px;
 }
 
 /* Header and Footer
