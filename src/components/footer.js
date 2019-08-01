@@ -27,7 +27,8 @@ const Footer = () => (
     <div>
       © {new Date().getFullYear()} Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>. 
+          Deployed with <a href="https://www.netlify.com">Netlify</a>.
     </div>
  
   </footer>
