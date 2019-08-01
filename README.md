@@ -1,5 +1,8 @@
 # My A11y Blog
 
+Deployed on Netlify at:
+https://keen-jang-28051d.netlify.com/
+
 Things I am learning more about while working on this site:
 
 * Gatsby.js
