@@ -62,7 +62,7 @@ import SearchBar from "./search-bar"
     <div class="brand-search-bar">
       <div class="brand-search-inner">
       <div class="logo">
-        <Link to="/"><FaPencilAlt aria-hidden="true" /> Gatsby A11y-Ready Blog</Link>
+        <Link to="/"><FaPencilAlt aria-hidden="true" /> My A11y Blog</Link>
       </div>
       <button class="search-toggle" id="js-search-toggle" onClick={this.toggleSearch} aria-expanded="false" aria-label="open search">
       {this.state.searchOpen ?  <FaWindowClose id="search-image" /> :  <FaSearch id="search-image" /> }

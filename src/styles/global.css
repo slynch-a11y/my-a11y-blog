@@ -64,11 +64,7 @@ a:hover {
   min-height: 50px;
   padding: 50px;
 }
-.content-wrap {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: 50px;
-}
+
 
 /* Header and Footer
 -------------------------*/
@@ -271,6 +267,13 @@ button:hover,
 input:hover,
 a:hover {
   outline: 3px solid black;
+}
+.content-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap:10px;
+ 
 }
 
 /* Media Queries
