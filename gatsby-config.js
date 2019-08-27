@@ -16,6 +16,7 @@ module.exports = {
               name: `blog`
           }
       },
+      `gatsby-plugin-sass`,
      `gatsby-transformer-remark`,
       `gatsby-plugin-react-helmet`,
       {
@@ -24,19 +25,19 @@ module.exports = {
           pathToConfigModule: `src/utils/typography`,
         },
       },
-      {  
-        resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,  
-        options: {  
-          fields: [`title`, `tags`, `html`],  
-          resolvers: {  
-            MarkdownRemark: {  
-              title: node => node.frontmatter.title,  
-              tags: node => node.frontmatter.tags,  
-              html: node => node.internal.content,  
+      {
+        resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+        options: {
+          fields: [`title`, `tags`, `html`],
+          resolvers: {
+            MarkdownRemark: {
+              title: node => node.frontmatter.title,
+              tags: node => node.frontmatter.tags,
+              html: node => node.internal.content,
               slug: node => node.fields.slug
-            },  
-          },  
-        },  
+            },
+          },
+        },
       },
     ],
   }

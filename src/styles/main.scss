@@ -1,3 +1,6 @@
+@import './_color-contrast-function.scss';
+$header-color: #FBFDF4;
+
 /* Colors
 #DFCCB4 - medium brown
 #FBFDF4 - light brown
@@ -60,9 +63,10 @@ a:hover {
 .main {
 
   width: 100%;
-  background-color: #FBFDF4;
+  background-color: $header-color;
   min-height: 50px;
   padding: 50px;
+  color: choose-contrast-color($header-color)
 }
 
 
@@ -273,7 +277,7 @@ a:hover {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-column-gap: 50px;
   grid-row-gap:10px;
- 
+
 }
 
 /* Media Queries
@@ -314,7 +318,7 @@ a:hover {
     grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     grid-column-gap: 50px;
     grid-row-gap:10px;
-   
+
   }
 
 }

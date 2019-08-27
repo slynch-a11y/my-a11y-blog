@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('C:/Users/sl452/Documents/Gatsby/MyA11yBlogSite/gatsby-theme-a11y/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/sarahlynch/my-a11y-blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/sl452/Documents/Gatsby/MyA11yBlogSite/gatsby-theme-a11y/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/sarahlynch/my-a11y-blog/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
