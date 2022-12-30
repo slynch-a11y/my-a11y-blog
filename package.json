@@ -24,12 +24,12 @@
     "clean": "gatsby clean"
   },
   "peerDependencies": {
-    "gatsby": "^2.13.44",
+    "gatsby": "^2.32.13",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "gatsby": "^2.13.44",
+    "gatsby": "^2.32.13",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
